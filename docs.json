@@ -9,9 +9,11 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "tabs": [
+    "products": [
       {
-        "tab": "Guides",
+        "product": "Guides",
+        "description": "Core API description",    
+        "icon": "api",
         "groups": [
           {
             "group": "Getting started",
@@ -48,18 +50,20 @@
         ]
       },
       {
-        "tab": "API reference",
+        "product": "App1",
+        "description": "Například bank appka",    
+        "icon": "api",
         "groups": [
           {
-            "group": "API documentation",
+            "group": "Úvod",
             "pages": [
-              "api-reference/introduction"
+              "application1/Overview"
             ]
           },
           {
-            "group": "Endpoint examples",
+            "group": "Příklady",
             "pages": [
-              "api-reference/endpoint/get",
+              "application1/examples",
               "api-reference/endpoint/create",
               "api-reference/endpoint/delete",
               "api-reference/endpoint/webhook"
